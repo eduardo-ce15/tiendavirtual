@@ -1,0 +1,189 @@
+body{
+    background-position: bottom;
+    background-image: none;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.2),
+        rgba(0,0,0,0.2)
+    ), url(https://th.bing.com/th/id/R.62166301d632efb0414a47db37095d79?rik=K8ksXvWUJF7gJQ&riu=http%3a%2f%2fwww.fondox.net%2fwallpapers%2finmenso-mar-azul-3484.jpg&ehk=LLaO6d9ZK4r3neHvYjL585PbTDlPrP9bi4CfAP5UIf0%3d&risl=&pid=ImgRaw&r=0);
+}
+.titulos{
+    width: 100%;
+    height: 65vh;
+    text-align: center;
+    background-image: url(https://th.bing.com/th/id/R.0c2240336b9a5c9c282290c3e0bd98b1?rik=2%2bbNCaFjYxliiA&riu=http%3a%2f%2f2.bp.blogspot.com%2f-av7l9LYGgvI%2fUHucYW9NHYI%2fAAAAAAAABVY%2feA7Df8Bma0E%2fs1600%2ffondos%2bde%2bpantalla%2bcon%2bmovimiento.png&ehk=ayFamT0oMobrXWG4bm3kTdMJONDmnr1CSRa%2fNIt5zew%3d&risl=&pid=ImgRaw&r=0);
+}
+.parrafos{
+    color: #fff;
+    padding-top: 80px;
+}
+.parrafos p{
+    margin: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.parrafos h2{
+    font-family: monospace;
+    font-size: 2.3em;
+}
+.titulos button{
+    background-color: tomato;
+    background-size: 11em;
+    background-position: center;
+    margin-top: 30px;
+    background-image: url(https://www.gifss.com/alimentos/caramelos/caramelo-02.gif);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 0;
+} 
+button a{
+    color: transparent;
+    text-decoration: none;
+    padding-top: 35px;
+    font-size: 2.4em;
+    border-radius: 50%;
+    padding-bottom: 35px;
+    background-color: transparent;    
+}
+
+
+
+
+
+
+.productos-container {
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+.productos-container h2{
+    padding-bottom: 30px;
+    font-family: monospace;
+    font-size: 2.1em;
+    color: #fff;
+}
+.producto-item {
+    display: inline-block;
+    width: 200px;
+    margin-right: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.producto-item img {
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.producto-item h3 {
+    font-size: 1.2rem;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-family: monospace;
+}
+
+.producto-item p {
+    font-size: 1em;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 4px;
+    background-color: rgba(0,0,0,0.4);
+    padding: 5px;
+    width: 100%;
+}
+
+.copy{
+    font-size: 15px;
+    margin-top: 20px;
+    color: #fff;
+}
+.contacto{
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    color: #fff;
+
+}
+.contacto a{
+    text-decoration: none;
+    color: #fff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+.contacto a:hover{
+    text-decoration: underline 0.1em;
+}
+h4{
+    font-family: monospace;
+    font-size: 1.5em;
+    padding-bottom: 12px;
+}
+#parrafo-productos{
+    text-shadow: 1px 3px 2px black;
+    color: #fff;
+    padding: 60px;
+}
+#parrafo-productos .titulo-uno{
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: monospace;
+    font-size: 2.2em;
+}
+.izquierda{
+    text-align: right;
+    font-family:cursive;
+}
+.parra h2{
+    font-family: cursive;
+}
+.parra p{
+    font-size: 1.2em;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@media (max-width: 767px) {
+    .productos-container {
+        margin-top: 70px;
+        text-align: center;
+		overflow-x: auto;
+		white-space:normal;
+        margin-bottom: 70px;
+	}
+	.producto-item {
+        text-align: center;
+		display: inline-block;
+		width: 200px;
+		margin-bottom: 20px;
+	}
+}
+@media (min-width: 768px) {
+	.productos-container {
+        margin-top: 70px;
+        text-align: center;
+		overflow-x: auto;
+		white-space: nowrap;
+        margin-bottom: 70px;
+	}
+	.producto-item {
+        text-align: center;
+		display: inline-block;
+        width: 200px;
+		margin-right: 20px;
+		margin-bottom: 0;
+	}
+}	
+@media (max-width: 720px){
+    header{
+        background-color: rgba(0,0,0,0.1);
+    }
+}	

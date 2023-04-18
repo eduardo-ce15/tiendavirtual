@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: none;
+    background-image: url(https://th.bing.com/th/id/R.6d5a08ff38f8a3ebe47a2db654390f21?rik=bRNBgi2yPQ0IEA&pid=ImgRaw&r=0);
+    background-position: top;
+}
+
+.explicaciones h2{
+    text-shadow: 1px 3px 2px black;
+    color: #fff;
+    margin-top: 70px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 2.4em;
+    
+}
+.boton button{
+    cursor: pointer;
+    background-position: bottom;
+    margin-top: -20px;
+    border: 0;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    background-image: url(https://66.media.tumblr.com/9c02da24397830f92de81776294fb2be/ec264c73710c341b-60/s540x810/20ee2b889ef42cf0be1c13485cb925ca3ba00cff.gif);
+}
+.boton button:hover{
+    width: 135px;
+    height: 135px;
+    background-position: center;
+    background-image: url(https://media1.giphy.com/media/cgezyT3woKahnb0Kj4/200.gif?cid=790b7611640ginwmcxmvooctrqo5u3g7q6c1if8ay03mwg9v&rid=200.gif&ct=g);
+}
+.botono button{
+    cursor: pointer;
+    background-position: center;
+    margin-top: -20px;
+    border: 0;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    background-image: url(https://media.giphy.com/media/9grWHJlxxTaso/giphy.gif);
+}
+.botono button:hover{
+    width: 140px;
+    height: 140px;
+    background-position: center;
+    background-image: url(https://th.bing.com/th/id/R.c8a3be05ef211d76c3d69ef7750ef4ae?rik=xFQksW4VnGthcg&pid=ImgRaw&r=0);
+}
+.bot button{
+    cursor: pointer;
+    background-position: center;
+    margin-top: -20px;
+    border: 0;
+    border-radius: 50%;
+    width: 135px;
+    height: 135px;
+    background-image: url(https://media1.tenor.com/images/42dbd329b80a7da2e4026ef903aaba59/tenor.gif?itemid=8319914);
+}
+.bot button:hover{
+    width: 140px;
+    height: 140px;
+    background-position: center;
+    background-image: url(https://cdn.dribbble.com/users/1138853/screenshots/4286407/v1.animacja_mi_y__ilustracje_amanda__styleframe___ewa_g_i_ewa_b.gif);
+}
+.bo button{
+    margin-bottom: 20px;
+    cursor: pointer;
+    background-position: center;
+    margin-top: -20px;
+    border: 0;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    background-image: url(https://th.bing.com/th/id/R.aa4be504436b450822e25955117eeb8f?rik=DORL%2b9mZuUatsg&riu=http%3a%2f%2f3.bp.blogspot.com%2f-72PI9GTqNKc%2fUlHM7F6rXSI%2fAAAAAAAAEj4%2fdqtp9xwZzNs%2fs1600%2fImagen-animada-Planta-111.gif&ehk=eS8zElNrk3d7Jyx9M4lg6jsL8bei6XGQkFCOmgfAvlE%3d&risl=&pid=ImgRaw&r=0);
+}
+.bo button:hover{
+    width: 140px;
+    height: 140px;
+    background-position: center;
+    background-image: url(https://cdn.dribbble.com/users/1138853/screenshots/4286407/v1.animacja_mi_y__ilustracje_amanda__styleframe___ewa_g_i_ewa_b.gif);
+}
+.bo p{
+    margin-bottom: 30px;
+    font-family: cursive;
+    font-size: 1.1em;
+    text-shadow: 1px 3px 2px red;
+}
+.botono p{
+    font-family: cursive;
+    font-size: 1.1em;
+    text-shadow: 1px 3px 2px red;
+}
+.bot p{
+    font-family: cursive;
+    font-size: 1.1em;
+    text-shadow: 1px 3px 2px red;
+}
+.boton p{
+    font-family: cursive;
+    font-size: 1.1em;
+    text-shadow: 1px 3px 2px red;
+}
+.parrafos p{
+    font-size: 1.1em;
+}
+.parrafos{
+    color: #fff;
+    margin: 50px;
+    border-radius: 20px;
+    padding: 20px 20px;
+    background-color: rgba(0,0,0,0.5);
+}
+.parrafos h2{
+    font-size: 1.8em;
+    text-decoration: underline;
+    font-family: 'Courier New', Courier, monospace;
+}
+.imag img{
+    margin-top: 50px;
+    width: 50%;
+    height: 30vh;
+    border-radius: 15px;
+}
+.imag{
+    text-align: center;
+}
+footer .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 4px;
+    background-color: rgba(0,0,0,0.4);
+    padding: 5px;
+    width: 100%;
+}
+
+.copy{
+    font-size: 15px;
+    margin-top: 20px;
+    color: #fff;
+}
+.contacto{
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    color: #fff;
+
+}
+.contacto a{
+    text-decoration: none;
+    color: #fff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+.contacto a:hover{
+    text-decoration: underline 0.1em;
+}
+h4{
+    font-family: monospace;
+    font-size: 1.5em;
+    padding-bottom: 12px;
+}
+
+@media (min-width: 1080px){
+    .imag img{
+        margin-top: 50px;
+        width: 40%;
+        height: 40vh;
+        border-radius: 15px;
+    }
+}
